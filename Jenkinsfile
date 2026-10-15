@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'PARTH/cicd-demo'
+        IMAGE_NAME = 'YOUR_DOCKERHUB_USERNAME/cicd-demo'
         IMAGE_TAG  = "${BUILD_NUMBER}"
     }
 
